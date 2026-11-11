@@ -1,0 +1,2205 @@
+{
+  "dataset_name": "synthetic_long_term_memory_conversations_v1",
+  "description": "Synthetic multi-session conversations with curated gold memories, recall events, and evaluation queries. Timestamps are UTC ISO-8601. Designed for memory encoding/decay/reinforcement experiments; not a benchmark dataset.",
+  "generated_at": "2026-11-05T00:00:00Z",
+  "profiles": [
+    {
+      "user_id": "user_001",
+      "sessions": [
+        [
+          0,
+          [
+            "I'm a second-year computer science student.",
+            "I'm building a monocular SLAM project in Python.",
+            "I prefer examples with code rather than only theory.",
+            "What's the difference between RAM and storage?"
+          ]
+        ],
+        [
+          1,
+          [
+            "I started reading about visual odometry for my SLAM project.",
+            "I'm using OpenCV for feature detection.",
+            "Thanks, that's helpful.",
+            "What does HTTP stand for?"
+          ]
+        ],
+        [
+          3,
+          [
+            "For the SLAM project, I'm comparing ORB features with SIFT.",
+            "I usually work on Linux.",
+            "Can you explain matrix multiplication?",
+            "I want to finish a working prototype by the end of the month."
+          ]
+        ],
+        [
+          6,
+          [
+            "I switched the SLAM prototype to use ORB features.",
+            "I keep my project notes in Markdown.",
+            "What's a good way to name Python variables?"
+          ]
+        ],
+        [
+          10,
+          [
+            "I got camera pose estimation working in my SLAM prototype.",
+            "I'm also learning PyTorch.",
+            "Can you define entropy?"
+          ]
+        ],
+        [
+          15,
+          [
+            "The SLAM project is still my main priority.",
+            "I prefer concise answers first, followed by details if needed.",
+            "What is the capital of Norway?"
+          ]
+        ],
+        [
+          22,
+          [
+            "I fixed the feature-matching bug in my SLAM project.",
+            "I want to add loop closure next.",
+            "How do I reverse a list in Python?"
+          ]
+        ],
+        [
+          30,
+          [
+            "Can we continue with the SLAM project? I want to implement loop closure.",
+            "I am still using Python and OpenCV.",
+            "Tell me a quick joke."
+          ]
+        ]
+      ]
+    },
+    {
+      "user_id": "user_002",
+      "sessions": [
+        [
+          0,
+          [
+            "I work as a junior product designer.",
+            "I'm redesigning the onboarding flow for a budgeting app.",
+            "I prefer clean interfaces with restrained colors.",
+            "Hi there!"
+          ]
+        ],
+        [
+          2,
+          [
+            "The onboarding should take fewer than three minutes.",
+            "Our users are mostly first-time budgeters.",
+            "What is a REST API?"
+          ]
+        ],
+        [
+          5,
+          [
+            "I tested the onboarding prototype with six people.",
+            "Four testers struggled to understand the category-selection screen.",
+            "I use Figma for interface design."
+          ]
+        ],
+        [
+          9,
+          [
+            "I changed the category-selection screen to use plain-language labels.",
+            "I want to keep the onboarding accessible.",
+            "What does SQL mean?"
+          ]
+        ],
+        [
+          16,
+          [
+            "The second usability test went better; five of six testers completed onboarding without help.",
+            "I'm preparing a design handoff for engineering."
+          ]
+        ],
+        [
+          28,
+          [
+            "Help me write the handoff notes for the budgeting app onboarding.",
+            "Remember that accessibility is a key requirement."
+          ]
+        ]
+      ]
+    },
+    {
+      "user_id": "user_003",
+      "sessions": [
+        [
+          0,
+          [
+            "I'm preparing for a data engineering interview.",
+            "I'm comfortable with Python but need more practice with SQL joins.",
+            "I study best with short exercises.",
+            "What time is it in Tokyo?"
+          ]
+        ],
+        [
+          1,
+          [
+            "I have an interview scheduled for November 12.",
+            "I reviewed INNER JOIN and LEFT JOIN today.",
+            "Can you explain photosynthesis?"
+          ]
+        ],
+        [
+          4,
+          [
+            "I struggled with window functions in my SQL practice.",
+            "I want to spend 30 minutes a day on SQL.",
+            "Thanks!"
+          ]
+        ],
+        [
+          8,
+          [
+            "I solved five SQL join exercises correctly.",
+            "I'm now practicing CTEs and window functions."
+          ]
+        ],
+        [
+          14,
+          [
+            "My interview is still on November 12.",
+            "Please quiz me one question at a time."
+          ]
+        ],
+        [
+          25,
+          [
+            "Let's practice SQL window functions for my data engineering interview.",
+            "I prefer one question at a time."
+          ]
+        ]
+      ]
+    },
+    {
+      "user_id": "user_004",
+      "sessions": [
+        [
+          0,
+          [
+            "I'm planning a small vegetable garden on my balcony.",
+            "The balcony gets direct sunlight for about four hours.",
+            "I have two medium-sized planters.",
+            "Hello!"
+          ]
+        ],
+        [
+          3,
+          [
+            "I planted basil and cherry tomatoes.",
+            "The tomato leaves are turning yellow near the bottom.",
+            "What is a binary tree?"
+          ]
+        ],
+        [
+          7,
+          [
+            "I moved the tomato planter to a sunnier corner.",
+            "I water the plants every other morning."
+          ]
+        ],
+        [
+          13,
+          [
+            "The basil is growing well, but the tomatoes still look pale.",
+            "I want to avoid chemical pesticides."
+          ]
+        ],
+        [
+          24,
+          [
+            "Can you help troubleshoot my balcony tomatoes?",
+            "Remember, I prefer organic gardening methods."
+          ]
+        ]
+      ]
+    },
+    {
+      "user_id": "user_005",
+      "sessions": [
+        [
+          0,
+          [
+            "I'm learning Spanish for an upcoming trip.",
+            "My current level is beginner A1.",
+            "I can practice for 15 minutes each evening.",
+            "What's 17 times 23?"
+          ]
+        ],
+        [
+          2,
+          [
+            "I booked a trip to Madrid for December 4.",
+            "I want to focus on ordering food and asking for directions.",
+            "How do you say 'good morning' in Spanish?"
+          ]
+        ],
+        [
+          5,
+          [
+            "I learned the phrases for ordering coffee and asking for the bill.",
+            "Please correct my Spanish gently and explain mistakes."
+          ]
+        ],
+        [
+          11,
+          [
+            "I can now introduce myself and ask simple questions in Spanish.",
+            "I still struggle with past-tense verbs."
+          ]
+        ],
+        [
+          20,
+          [
+            "Let's practice a restaurant conversation in Spanish.",
+            "I'm still a beginner, so keep the vocabulary simple."
+          ]
+        ]
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "user_001_session_01",
+      "user_id": "user_001",
+      "started_at": "2026-10-01T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_001_session_01_msg_01",
+          "user_id": "user_001",
+          "session_id": "user_001_session_01",
+          "timestamp": "2026-10-01T10:03:00+00:00",
+          "role": "user",
+          "content": "I'm a second-year computer science student."
+        },
+        {
+          "message_id": "user_001_session_01_msg_02",
+          "user_id": "user_001",
+          "session_id": "user_001_session_01",
+          "timestamp": "2026-10-01T10:06:00+00:00",
+          "role": "user",
+          "content": "I'm building a monocular SLAM project in Python."
+        },
+        {
+          "message_id": "user_001_session_01_msg_03",
+          "user_id": "user_001",
+          "session_id": "user_001_session_01",
+          "timestamp": "2026-10-01T10:09:00+00:00",
+          "role": "user",
+          "content": "I prefer examples with code rather than only theory."
+        },
+        {
+          "message_id": "user_001_session_01_msg_04",
+          "user_id": "user_001",
+          "session_id": "user_001_session_01",
+          "timestamp": "2026-10-01T10:12:00+00:00",
+          "role": "assistant",
+          "content": "What's the difference between RAM and storage?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_001_session_02",
+      "user_id": "user_001",
+      "started_at": "2026-10-02T11:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_001_session_02_msg_01",
+          "user_id": "user_001",
+          "session_id": "user_001_session_02",
+          "timestamp": "2026-10-02T11:03:00+00:00",
+          "role": "user",
+          "content": "I started reading about visual odometry for my SLAM project."
+        },
+        {
+          "message_id": "user_001_session_02_msg_02",
+          "user_id": "user_001",
+          "session_id": "user_001_session_02",
+          "timestamp": "2026-10-02T11:06:00+00:00",
+          "role": "user",
+          "content": "I'm using OpenCV for feature detection."
+        },
+        {
+          "message_id": "user_001_session_02_msg_03",
+          "user_id": "user_001",
+          "session_id": "user_001_session_02",
+          "timestamp": "2026-10-02T11:09:00+00:00",
+          "role": "user",
+          "content": "Thanks, that's helpful."
+        },
+        {
+          "message_id": "user_001_session_02_msg_04",
+          "user_id": "user_001",
+          "session_id": "user_001_session_02",
+          "timestamp": "2026-10-02T11:12:00+00:00",
+          "role": "assistant",
+          "content": "What does HTTP stand for?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_001_session_03",
+      "user_id": "user_001",
+      "started_at": "2026-10-04T12:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_001_session_03_msg_01",
+          "user_id": "user_001",
+          "session_id": "user_001_session_03",
+          "timestamp": "2026-10-04T12:03:00+00:00",
+          "role": "user",
+          "content": "For the SLAM project, I'm comparing ORB features with SIFT."
+        },
+        {
+          "message_id": "user_001_session_03_msg_02",
+          "user_id": "user_001",
+          "session_id": "user_001_session_03",
+          "timestamp": "2026-10-04T12:06:00+00:00",
+          "role": "user",
+          "content": "I usually work on Linux."
+        },
+        {
+          "message_id": "user_001_session_03_msg_03",
+          "user_id": "user_001",
+          "session_id": "user_001_session_03",
+          "timestamp": "2026-10-04T12:09:00+00:00",
+          "role": "user",
+          "content": "Can you explain matrix multiplication?"
+        },
+        {
+          "message_id": "user_001_session_03_msg_04",
+          "user_id": "user_001",
+          "session_id": "user_001_session_03",
+          "timestamp": "2026-10-04T12:12:00+00:00",
+          "role": "assistant",
+          "content": "I want to finish a working prototype by the end of the month."
+        }
+      ]
+    },
+    {
+      "session_id": "user_001_session_04",
+      "user_id": "user_001",
+      "started_at": "2026-10-07T09:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_001_session_04_msg_01",
+          "user_id": "user_001",
+          "session_id": "user_001_session_04",
+          "timestamp": "2026-10-07T09:03:00+00:00",
+          "role": "user",
+          "content": "I switched the SLAM prototype to use ORB features."
+        },
+        {
+          "message_id": "user_001_session_04_msg_02",
+          "user_id": "user_001",
+          "session_id": "user_001_session_04",
+          "timestamp": "2026-10-07T09:06:00+00:00",
+          "role": "user",
+          "content": "I keep my project notes in Markdown."
+        },
+        {
+          "message_id": "user_001_session_04_msg_03",
+          "user_id": "user_001",
+          "session_id": "user_001_session_04",
+          "timestamp": "2026-10-07T09:09:00+00:00",
+          "role": "user",
+          "content": "What's a good way to name Python variables?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_001_session_05",
+      "user_id": "user_001",
+      "started_at": "2026-10-11T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_001_session_05_msg_01",
+          "user_id": "user_001",
+          "session_id": "user_001_session_05",
+          "timestamp": "2026-10-11T10:03:00+00:00",
+          "role": "user",
+          "content": "I got camera pose estimation working in my SLAM prototype."
+        },
+        {
+          "message_id": "user_001_session_05_msg_02",
+          "user_id": "user_001",
+          "session_id": "user_001_session_05",
+          "timestamp": "2026-10-11T10:06:00+00:00",
+          "role": "user",
+          "content": "I'm also learning PyTorch."
+        },
+        {
+          "message_id": "user_001_session_05_msg_03",
+          "user_id": "user_001",
+          "session_id": "user_001_session_05",
+          "timestamp": "2026-10-11T10:09:00+00:00",
+          "role": "user",
+          "content": "Can you define entropy?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_001_session_06",
+      "user_id": "user_001",
+      "started_at": "2026-10-16T11:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_001_session_06_msg_01",
+          "user_id": "user_001",
+          "session_id": "user_001_session_06",
+          "timestamp": "2026-10-16T11:03:00+00:00",
+          "role": "user",
+          "content": "The SLAM project is still my main priority."
+        },
+        {
+          "message_id": "user_001_session_06_msg_02",
+          "user_id": "user_001",
+          "session_id": "user_001_session_06",
+          "timestamp": "2026-10-16T11:06:00+00:00",
+          "role": "user",
+          "content": "I prefer concise answers first, followed by details if needed."
+        },
+        {
+          "message_id": "user_001_session_06_msg_03",
+          "user_id": "user_001",
+          "session_id": "user_001_session_06",
+          "timestamp": "2026-10-16T11:09:00+00:00",
+          "role": "user",
+          "content": "What is the capital of Norway?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_001_session_07",
+      "user_id": "user_001",
+      "started_at": "2026-10-23T12:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_001_session_07_msg_01",
+          "user_id": "user_001",
+          "session_id": "user_001_session_07",
+          "timestamp": "2026-10-23T12:03:00+00:00",
+          "role": "user",
+          "content": "I fixed the feature-matching bug in my SLAM project."
+        },
+        {
+          "message_id": "user_001_session_07_msg_02",
+          "user_id": "user_001",
+          "session_id": "user_001_session_07",
+          "timestamp": "2026-10-23T12:06:00+00:00",
+          "role": "user",
+          "content": "I want to add loop closure next."
+        },
+        {
+          "message_id": "user_001_session_07_msg_03",
+          "user_id": "user_001",
+          "session_id": "user_001_session_07",
+          "timestamp": "2026-10-23T12:09:00+00:00",
+          "role": "user",
+          "content": "How do I reverse a list in Python?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_001_session_08",
+      "user_id": "user_001",
+      "started_at": "2026-10-31T09:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_001_session_08_msg_01",
+          "user_id": "user_001",
+          "session_id": "user_001_session_08",
+          "timestamp": "2026-10-31T09:03:00+00:00",
+          "role": "user",
+          "content": "Can we continue with the SLAM project? I want to implement loop closure."
+        },
+        {
+          "message_id": "user_001_session_08_msg_02",
+          "user_id": "user_001",
+          "session_id": "user_001_session_08",
+          "timestamp": "2026-10-31T09:06:00+00:00",
+          "role": "user",
+          "content": "I am still using Python and OpenCV."
+        },
+        {
+          "message_id": "user_001_session_08_msg_03",
+          "user_id": "user_001",
+          "session_id": "user_001_session_08",
+          "timestamp": "2026-10-31T09:09:00+00:00",
+          "role": "user",
+          "content": "Tell me a quick joke."
+        }
+      ]
+    },
+    {
+      "session_id": "user_002_session_01",
+      "user_id": "user_002",
+      "started_at": "2026-10-01T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_002_session_01_msg_01",
+          "user_id": "user_002",
+          "session_id": "user_002_session_01",
+          "timestamp": "2026-10-01T10:03:00+00:00",
+          "role": "user",
+          "content": "I work as a junior product designer."
+        },
+        {
+          "message_id": "user_002_session_01_msg_02",
+          "user_id": "user_002",
+          "session_id": "user_002_session_01",
+          "timestamp": "2026-10-01T10:06:00+00:00",
+          "role": "user",
+          "content": "I'm redesigning the onboarding flow for a budgeting app."
+        },
+        {
+          "message_id": "user_002_session_01_msg_03",
+          "user_id": "user_002",
+          "session_id": "user_002_session_01",
+          "timestamp": "2026-10-01T10:09:00+00:00",
+          "role": "user",
+          "content": "I prefer clean interfaces with restrained colors."
+        },
+        {
+          "message_id": "user_002_session_01_msg_04",
+          "user_id": "user_002",
+          "session_id": "user_002_session_01",
+          "timestamp": "2026-10-01T10:12:00+00:00",
+          "role": "user",
+          "content": "Hi there!"
+        }
+      ]
+    },
+    {
+      "session_id": "user_002_session_02",
+      "user_id": "user_002",
+      "started_at": "2026-10-03T11:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_002_session_02_msg_01",
+          "user_id": "user_002",
+          "session_id": "user_002_session_02",
+          "timestamp": "2026-10-03T11:03:00+00:00",
+          "role": "user",
+          "content": "The onboarding should take fewer than three minutes."
+        },
+        {
+          "message_id": "user_002_session_02_msg_02",
+          "user_id": "user_002",
+          "session_id": "user_002_session_02",
+          "timestamp": "2026-10-03T11:06:00+00:00",
+          "role": "user",
+          "content": "Our users are mostly first-time budgeters."
+        },
+        {
+          "message_id": "user_002_session_02_msg_03",
+          "user_id": "user_002",
+          "session_id": "user_002_session_02",
+          "timestamp": "2026-10-03T11:09:00+00:00",
+          "role": "user",
+          "content": "What is a REST API?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_002_session_03",
+      "user_id": "user_002",
+      "started_at": "2026-10-06T12:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_002_session_03_msg_01",
+          "user_id": "user_002",
+          "session_id": "user_002_session_03",
+          "timestamp": "2026-10-06T12:03:00+00:00",
+          "role": "user",
+          "content": "I tested the onboarding prototype with six people."
+        },
+        {
+          "message_id": "user_002_session_03_msg_02",
+          "user_id": "user_002",
+          "session_id": "user_002_session_03",
+          "timestamp": "2026-10-06T12:06:00+00:00",
+          "role": "user",
+          "content": "Four testers struggled to understand the category-selection screen."
+        },
+        {
+          "message_id": "user_002_session_03_msg_03",
+          "user_id": "user_002",
+          "session_id": "user_002_session_03",
+          "timestamp": "2026-10-06T12:09:00+00:00",
+          "role": "user",
+          "content": "I use Figma for interface design."
+        }
+      ]
+    },
+    {
+      "session_id": "user_002_session_04",
+      "user_id": "user_002",
+      "started_at": "2026-10-10T09:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_002_session_04_msg_01",
+          "user_id": "user_002",
+          "session_id": "user_002_session_04",
+          "timestamp": "2026-10-10T09:03:00+00:00",
+          "role": "user",
+          "content": "I changed the category-selection screen to use plain-language labels."
+        },
+        {
+          "message_id": "user_002_session_04_msg_02",
+          "user_id": "user_002",
+          "session_id": "user_002_session_04",
+          "timestamp": "2026-10-10T09:06:00+00:00",
+          "role": "user",
+          "content": "I want to keep the onboarding accessible."
+        },
+        {
+          "message_id": "user_002_session_04_msg_03",
+          "user_id": "user_002",
+          "session_id": "user_002_session_04",
+          "timestamp": "2026-10-10T09:09:00+00:00",
+          "role": "user",
+          "content": "What does SQL mean?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_002_session_05",
+      "user_id": "user_002",
+      "started_at": "2026-10-17T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_002_session_05_msg_01",
+          "user_id": "user_002",
+          "session_id": "user_002_session_05",
+          "timestamp": "2026-10-17T10:03:00+00:00",
+          "role": "user",
+          "content": "The second usability test went better; five of six testers completed onboarding without help."
+        },
+        {
+          "message_id": "user_002_session_05_msg_02",
+          "user_id": "user_002",
+          "session_id": "user_002_session_05",
+          "timestamp": "2026-10-17T10:06:00+00:00",
+          "role": "assistant",
+          "content": "I'm preparing a design handoff for engineering."
+        }
+      ]
+    },
+    {
+      "session_id": "user_002_session_06",
+      "user_id": "user_002",
+      "started_at": "2026-10-29T11:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_002_session_06_msg_01",
+          "user_id": "user_002",
+          "session_id": "user_002_session_06",
+          "timestamp": "2026-10-29T11:03:00+00:00",
+          "role": "user",
+          "content": "Help me write the handoff notes for the budgeting app onboarding."
+        },
+        {
+          "message_id": "user_002_session_06_msg_02",
+          "user_id": "user_002",
+          "session_id": "user_002_session_06",
+          "timestamp": "2026-10-29T11:06:00+00:00",
+          "role": "assistant",
+          "content": "Remember that accessibility is a key requirement."
+        }
+      ]
+    },
+    {
+      "session_id": "user_003_session_01",
+      "user_id": "user_003",
+      "started_at": "2026-10-01T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_003_session_01_msg_01",
+          "user_id": "user_003",
+          "session_id": "user_003_session_01",
+          "timestamp": "2026-10-01T10:03:00+00:00",
+          "role": "user",
+          "content": "I'm preparing for a data engineering interview."
+        },
+        {
+          "message_id": "user_003_session_01_msg_02",
+          "user_id": "user_003",
+          "session_id": "user_003_session_01",
+          "timestamp": "2026-10-01T10:06:00+00:00",
+          "role": "user",
+          "content": "I'm comfortable with Python but need more practice with SQL joins."
+        },
+        {
+          "message_id": "user_003_session_01_msg_03",
+          "user_id": "user_003",
+          "session_id": "user_003_session_01",
+          "timestamp": "2026-10-01T10:09:00+00:00",
+          "role": "user",
+          "content": "I study best with short exercises."
+        },
+        {
+          "message_id": "user_003_session_01_msg_04",
+          "user_id": "user_003",
+          "session_id": "user_003_session_01",
+          "timestamp": "2026-10-01T10:12:00+00:00",
+          "role": "assistant",
+          "content": "What time is it in Tokyo?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_003_session_02",
+      "user_id": "user_003",
+      "started_at": "2026-10-02T11:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_003_session_02_msg_01",
+          "user_id": "user_003",
+          "session_id": "user_003_session_02",
+          "timestamp": "2026-10-02T11:03:00+00:00",
+          "role": "user",
+          "content": "I have an interview scheduled for November 12."
+        },
+        {
+          "message_id": "user_003_session_02_msg_02",
+          "user_id": "user_003",
+          "session_id": "user_003_session_02",
+          "timestamp": "2026-10-02T11:06:00+00:00",
+          "role": "user",
+          "content": "I reviewed INNER JOIN and LEFT JOIN today."
+        },
+        {
+          "message_id": "user_003_session_02_msg_03",
+          "user_id": "user_003",
+          "session_id": "user_003_session_02",
+          "timestamp": "2026-10-02T11:09:00+00:00",
+          "role": "user",
+          "content": "Can you explain photosynthesis?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_003_session_03",
+      "user_id": "user_003",
+      "started_at": "2026-10-05T12:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_003_session_03_msg_01",
+          "user_id": "user_003",
+          "session_id": "user_003_session_03",
+          "timestamp": "2026-10-05T12:03:00+00:00",
+          "role": "user",
+          "content": "I struggled with window functions in my SQL practice."
+        },
+        {
+          "message_id": "user_003_session_03_msg_02",
+          "user_id": "user_003",
+          "session_id": "user_003_session_03",
+          "timestamp": "2026-10-05T12:06:00+00:00",
+          "role": "user",
+          "content": "I want to spend 30 minutes a day on SQL."
+        },
+        {
+          "message_id": "user_003_session_03_msg_03",
+          "user_id": "user_003",
+          "session_id": "user_003_session_03",
+          "timestamp": "2026-10-05T12:09:00+00:00",
+          "role": "user",
+          "content": "Thanks!"
+        }
+      ]
+    },
+    {
+      "session_id": "user_003_session_04",
+      "user_id": "user_003",
+      "started_at": "2026-10-09T09:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_003_session_04_msg_01",
+          "user_id": "user_003",
+          "session_id": "user_003_session_04",
+          "timestamp": "2026-10-09T09:03:00+00:00",
+          "role": "user",
+          "content": "I solved five SQL join exercises correctly."
+        },
+        {
+          "message_id": "user_003_session_04_msg_02",
+          "user_id": "user_003",
+          "session_id": "user_003_session_04",
+          "timestamp": "2026-10-09T09:06:00+00:00",
+          "role": "assistant",
+          "content": "I'm now practicing CTEs and window functions."
+        }
+      ]
+    },
+    {
+      "session_id": "user_003_session_05",
+      "user_id": "user_003",
+      "started_at": "2026-10-15T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_003_session_05_msg_01",
+          "user_id": "user_003",
+          "session_id": "user_003_session_05",
+          "timestamp": "2026-10-15T10:03:00+00:00",
+          "role": "user",
+          "content": "My interview is still on November 12."
+        },
+        {
+          "message_id": "user_003_session_05_msg_02",
+          "user_id": "user_003",
+          "session_id": "user_003_session_05",
+          "timestamp": "2026-10-15T10:06:00+00:00",
+          "role": "assistant",
+          "content": "Please quiz me one question at a time."
+        }
+      ]
+    },
+    {
+      "session_id": "user_003_session_06",
+      "user_id": "user_003",
+      "started_at": "2026-10-26T11:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_003_session_06_msg_01",
+          "user_id": "user_003",
+          "session_id": "user_003_session_06",
+          "timestamp": "2026-10-26T11:03:00+00:00",
+          "role": "user",
+          "content": "Let's practice SQL window functions for my data engineering interview."
+        },
+        {
+          "message_id": "user_003_session_06_msg_02",
+          "user_id": "user_003",
+          "session_id": "user_003_session_06",
+          "timestamp": "2026-10-26T11:06:00+00:00",
+          "role": "assistant",
+          "content": "I prefer one question at a time."
+        }
+      ]
+    },
+    {
+      "session_id": "user_004_session_01",
+      "user_id": "user_004",
+      "started_at": "2026-10-01T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_004_session_01_msg_01",
+          "user_id": "user_004",
+          "session_id": "user_004_session_01",
+          "timestamp": "2026-10-01T10:03:00+00:00",
+          "role": "user",
+          "content": "I'm planning a small vegetable garden on my balcony."
+        },
+        {
+          "message_id": "user_004_session_01_msg_02",
+          "user_id": "user_004",
+          "session_id": "user_004_session_01",
+          "timestamp": "2026-10-01T10:06:00+00:00",
+          "role": "user",
+          "content": "The balcony gets direct sunlight for about four hours."
+        },
+        {
+          "message_id": "user_004_session_01_msg_03",
+          "user_id": "user_004",
+          "session_id": "user_004_session_01",
+          "timestamp": "2026-10-01T10:09:00+00:00",
+          "role": "user",
+          "content": "I have two medium-sized planters."
+        },
+        {
+          "message_id": "user_004_session_01_msg_04",
+          "user_id": "user_004",
+          "session_id": "user_004_session_01",
+          "timestamp": "2026-10-01T10:12:00+00:00",
+          "role": "user",
+          "content": "Hello!"
+        }
+      ]
+    },
+    {
+      "session_id": "user_004_session_02",
+      "user_id": "user_004",
+      "started_at": "2026-10-04T11:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_004_session_02_msg_01",
+          "user_id": "user_004",
+          "session_id": "user_004_session_02",
+          "timestamp": "2026-10-04T11:03:00+00:00",
+          "role": "user",
+          "content": "I planted basil and cherry tomatoes."
+        },
+        {
+          "message_id": "user_004_session_02_msg_02",
+          "user_id": "user_004",
+          "session_id": "user_004_session_02",
+          "timestamp": "2026-10-04T11:06:00+00:00",
+          "role": "user",
+          "content": "The tomato leaves are turning yellow near the bottom."
+        },
+        {
+          "message_id": "user_004_session_02_msg_03",
+          "user_id": "user_004",
+          "session_id": "user_004_session_02",
+          "timestamp": "2026-10-04T11:09:00+00:00",
+          "role": "user",
+          "content": "What is a binary tree?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_004_session_03",
+      "user_id": "user_004",
+      "started_at": "2026-10-08T12:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_004_session_03_msg_01",
+          "user_id": "user_004",
+          "session_id": "user_004_session_03",
+          "timestamp": "2026-10-08T12:03:00+00:00",
+          "role": "user",
+          "content": "I moved the tomato planter to a sunnier corner."
+        },
+        {
+          "message_id": "user_004_session_03_msg_02",
+          "user_id": "user_004",
+          "session_id": "user_004_session_03",
+          "timestamp": "2026-10-08T12:06:00+00:00",
+          "role": "assistant",
+          "content": "I water the plants every other morning."
+        }
+      ]
+    },
+    {
+      "session_id": "user_004_session_04",
+      "user_id": "user_004",
+      "started_at": "2026-10-14T09:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_004_session_04_msg_01",
+          "user_id": "user_004",
+          "session_id": "user_004_session_04",
+          "timestamp": "2026-10-14T09:03:00+00:00",
+          "role": "user",
+          "content": "The basil is growing well, but the tomatoes still look pale."
+        },
+        {
+          "message_id": "user_004_session_04_msg_02",
+          "user_id": "user_004",
+          "session_id": "user_004_session_04",
+          "timestamp": "2026-10-14T09:06:00+00:00",
+          "role": "assistant",
+          "content": "I want to avoid chemical pesticides."
+        }
+      ]
+    },
+    {
+      "session_id": "user_004_session_05",
+      "user_id": "user_004",
+      "started_at": "2026-10-25T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_004_session_05_msg_01",
+          "user_id": "user_004",
+          "session_id": "user_004_session_05",
+          "timestamp": "2026-10-25T10:03:00+00:00",
+          "role": "user",
+          "content": "Can you help troubleshoot my balcony tomatoes?"
+        },
+        {
+          "message_id": "user_004_session_05_msg_02",
+          "user_id": "user_004",
+          "session_id": "user_004_session_05",
+          "timestamp": "2026-10-25T10:06:00+00:00",
+          "role": "assistant",
+          "content": "Remember, I prefer organic gardening methods."
+        }
+      ]
+    },
+    {
+      "session_id": "user_005_session_01",
+      "user_id": "user_005",
+      "started_at": "2026-10-01T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_005_session_01_msg_01",
+          "user_id": "user_005",
+          "session_id": "user_005_session_01",
+          "timestamp": "2026-10-01T10:03:00+00:00",
+          "role": "user",
+          "content": "I'm learning Spanish for an upcoming trip."
+        },
+        {
+          "message_id": "user_005_session_01_msg_02",
+          "user_id": "user_005",
+          "session_id": "user_005_session_01",
+          "timestamp": "2026-10-01T10:06:00+00:00",
+          "role": "user",
+          "content": "My current level is beginner A1."
+        },
+        {
+          "message_id": "user_005_session_01_msg_03",
+          "user_id": "user_005",
+          "session_id": "user_005_session_01",
+          "timestamp": "2026-10-01T10:09:00+00:00",
+          "role": "user",
+          "content": "I can practice for 15 minutes each evening."
+        },
+        {
+          "message_id": "user_005_session_01_msg_04",
+          "user_id": "user_005",
+          "session_id": "user_005_session_01",
+          "timestamp": "2026-10-01T10:12:00+00:00",
+          "role": "assistant",
+          "content": "What's 17 times 23?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_005_session_02",
+      "user_id": "user_005",
+      "started_at": "2026-10-03T11:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_005_session_02_msg_01",
+          "user_id": "user_005",
+          "session_id": "user_005_session_02",
+          "timestamp": "2026-10-03T11:03:00+00:00",
+          "role": "user",
+          "content": "I booked a trip to Madrid for December 4."
+        },
+        {
+          "message_id": "user_005_session_02_msg_02",
+          "user_id": "user_005",
+          "session_id": "user_005_session_02",
+          "timestamp": "2026-10-03T11:06:00+00:00",
+          "role": "user",
+          "content": "I want to focus on ordering food and asking for directions."
+        },
+        {
+          "message_id": "user_005_session_02_msg_03",
+          "user_id": "user_005",
+          "session_id": "user_005_session_02",
+          "timestamp": "2026-10-03T11:09:00+00:00",
+          "role": "user",
+          "content": "How do you say 'good morning' in Spanish?"
+        }
+      ]
+    },
+    {
+      "session_id": "user_005_session_03",
+      "user_id": "user_005",
+      "started_at": "2026-10-06T12:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_005_session_03_msg_01",
+          "user_id": "user_005",
+          "session_id": "user_005_session_03",
+          "timestamp": "2026-10-06T12:03:00+00:00",
+          "role": "user",
+          "content": "I learned the phrases for ordering coffee and asking for the bill."
+        },
+        {
+          "message_id": "user_005_session_03_msg_02",
+          "user_id": "user_005",
+          "session_id": "user_005_session_03",
+          "timestamp": "2026-10-06T12:06:00+00:00",
+          "role": "assistant",
+          "content": "Please correct my Spanish gently and explain mistakes."
+        }
+      ]
+    },
+    {
+      "session_id": "user_005_session_04",
+      "user_id": "user_005",
+      "started_at": "2026-10-12T09:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_005_session_04_msg_01",
+          "user_id": "user_005",
+          "session_id": "user_005_session_04",
+          "timestamp": "2026-10-12T09:03:00+00:00",
+          "role": "user",
+          "content": "I can now introduce myself and ask simple questions in Spanish."
+        },
+        {
+          "message_id": "user_005_session_04_msg_02",
+          "user_id": "user_005",
+          "session_id": "user_005_session_04",
+          "timestamp": "2026-10-12T09:06:00+00:00",
+          "role": "assistant",
+          "content": "I still struggle with past-tense verbs."
+        }
+      ]
+    },
+    {
+      "session_id": "user_005_session_05",
+      "user_id": "user_005",
+      "started_at": "2026-10-21T10:00:00+00:00",
+      "messages": [
+        {
+          "message_id": "user_005_session_05_msg_01",
+          "user_id": "user_005",
+          "session_id": "user_005_session_05",
+          "timestamp": "2026-10-21T10:03:00+00:00",
+          "role": "user",
+          "content": "Let's practice a restaurant conversation in Spanish."
+        },
+        {
+          "message_id": "user_005_session_05_msg_02",
+          "user_id": "user_005",
+          "session_id": "user_005_session_05",
+          "timestamp": "2026-10-21T10:06:00+00:00",
+          "role": "assistant",
+          "content": "I'm still a beginner, so keep the vocabulary simple."
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "message_id": "user_001_session_01_msg_01",
+      "user_id": "user_001",
+      "session_id": "user_001_session_01",
+      "timestamp": "2026-10-01T10:03:00+00:00",
+      "role": "user",
+      "content": "I'm a second-year computer science student."
+    },
+    {
+      "message_id": "user_001_session_01_msg_02",
+      "user_id": "user_001",
+      "session_id": "user_001_session_01",
+      "timestamp": "2026-10-01T10:06:00+00:00",
+      "role": "user",
+      "content": "I'm building a monocular SLAM project in Python."
+    },
+    {
+      "message_id": "user_001_session_01_msg_03",
+      "user_id": "user_001",
+      "session_id": "user_001_session_01",
+      "timestamp": "2026-10-01T10:09:00+00:00",
+      "role": "user",
+      "content": "I prefer examples with code rather than only theory."
+    },
+    {
+      "message_id": "user_001_session_01_msg_04",
+      "user_id": "user_001",
+      "session_id": "user_001_session_01",
+      "timestamp": "2026-10-01T10:12:00+00:00",
+      "role": "assistant",
+      "content": "What's the difference between RAM and storage?"
+    },
+    {
+      "message_id": "user_001_session_02_msg_01",
+      "user_id": "user_001",
+      "session_id": "user_001_session_02",
+      "timestamp": "2026-10-02T11:03:00+00:00",
+      "role": "user",
+      "content": "I started reading about visual odometry for my SLAM project."
+    },
+    {
+      "message_id": "user_001_session_02_msg_02",
+      "user_id": "user_001",
+      "session_id": "user_001_session_02",
+      "timestamp": "2026-10-02T11:06:00+00:00",
+      "role": "user",
+      "content": "I'm using OpenCV for feature detection."
+    },
+    {
+      "message_id": "user_001_session_02_msg_03",
+      "user_id": "user_001",
+      "session_id": "user_001_session_02",
+      "timestamp": "2026-10-02T11:09:00+00:00",
+      "role": "user",
+      "content": "Thanks, that's helpful."
+    },
+    {
+      "message_id": "user_001_session_02_msg_04",
+      "user_id": "user_001",
+      "session_id": "user_001_session_02",
+      "timestamp": "2026-10-02T11:12:00+00:00",
+      "role": "assistant",
+      "content": "What does HTTP stand for?"
+    },
+    {
+      "message_id": "user_001_session_03_msg_01",
+      "user_id": "user_001",
+      "session_id": "user_001_session_03",
+      "timestamp": "2026-10-04T12:03:00+00:00",
+      "role": "user",
+      "content": "For the SLAM project, I'm comparing ORB features with SIFT."
+    },
+    {
+      "message_id": "user_001_session_03_msg_02",
+      "user_id": "user_001",
+      "session_id": "user_001_session_03",
+      "timestamp": "2026-10-04T12:06:00+00:00",
+      "role": "user",
+      "content": "I usually work on Linux."
+    },
+    {
+      "message_id": "user_001_session_03_msg_03",
+      "user_id": "user_001",
+      "session_id": "user_001_session_03",
+      "timestamp": "2026-10-04T12:09:00+00:00",
+      "role": "user",
+      "content": "Can you explain matrix multiplication?"
+    },
+    {
+      "message_id": "user_001_session_03_msg_04",
+      "user_id": "user_001",
+      "session_id": "user_001_session_03",
+      "timestamp": "2026-10-04T12:12:00+00:00",
+      "role": "assistant",
+      "content": "I want to finish a working prototype by the end of the month."
+    },
+    {
+      "message_id": "user_001_session_04_msg_01",
+      "user_id": "user_001",
+      "session_id": "user_001_session_04",
+      "timestamp": "2026-10-07T09:03:00+00:00",
+      "role": "user",
+      "content": "I switched the SLAM prototype to use ORB features."
+    },
+    {
+      "message_id": "user_001_session_04_msg_02",
+      "user_id": "user_001",
+      "session_id": "user_001_session_04",
+      "timestamp": "2026-10-07T09:06:00+00:00",
+      "role": "user",
+      "content": "I keep my project notes in Markdown."
+    },
+    {
+      "message_id": "user_001_session_04_msg_03",
+      "user_id": "user_001",
+      "session_id": "user_001_session_04",
+      "timestamp": "2026-10-07T09:09:00+00:00",
+      "role": "user",
+      "content": "What's a good way to name Python variables?"
+    },
+    {
+      "message_id": "user_001_session_05_msg_01",
+      "user_id": "user_001",
+      "session_id": "user_001_session_05",
+      "timestamp": "2026-10-11T10:03:00+00:00",
+      "role": "user",
+      "content": "I got camera pose estimation working in my SLAM prototype."
+    },
+    {
+      "message_id": "user_001_session_05_msg_02",
+      "user_id": "user_001",
+      "session_id": "user_001_session_05",
+      "timestamp": "2026-10-11T10:06:00+00:00",
+      "role": "user",
+      "content": "I'm also learning PyTorch."
+    },
+    {
+      "message_id": "user_001_session_05_msg_03",
+      "user_id": "user_001",
+      "session_id": "user_001_session_05",
+      "timestamp": "2026-10-11T10:09:00+00:00",
+      "role": "user",
+      "content": "Can you define entropy?"
+    },
+    {
+      "message_id": "user_001_session_06_msg_01",
+      "user_id": "user_001",
+      "session_id": "user_001_session_06",
+      "timestamp": "2026-10-16T11:03:00+00:00",
+      "role": "user",
+      "content": "The SLAM project is still my main priority."
+    },
+    {
+      "message_id": "user_001_session_06_msg_02",
+      "user_id": "user_001",
+      "session_id": "user_001_session_06",
+      "timestamp": "2026-10-16T11:06:00+00:00",
+      "role": "user",
+      "content": "I prefer concise answers first, followed by details if needed."
+    },
+    {
+      "message_id": "user_001_session_06_msg_03",
+      "user_id": "user_001",
+      "session_id": "user_001_session_06",
+      "timestamp": "2026-10-16T11:09:00+00:00",
+      "role": "user",
+      "content": "What is the capital of Norway?"
+    },
+    {
+      "message_id": "user_001_session_07_msg_01",
+      "user_id": "user_001",
+      "session_id": "user_001_session_07",
+      "timestamp": "2026-10-23T12:03:00+00:00",
+      "role": "user",
+      "content": "I fixed the feature-matching bug in my SLAM project."
+    },
+    {
+      "message_id": "user_001_session_07_msg_02",
+      "user_id": "user_001",
+      "session_id": "user_001_session_07",
+      "timestamp": "2026-10-23T12:06:00+00:00",
+      "role": "user",
+      "content": "I want to add loop closure next."
+    },
+    {
+      "message_id": "user_001_session_07_msg_03",
+      "user_id": "user_001",
+      "session_id": "user_001_session_07",
+      "timestamp": "2026-10-23T12:09:00+00:00",
+      "role": "user",
+      "content": "How do I reverse a list in Python?"
+    },
+    {
+      "message_id": "user_001_session_08_msg_01",
+      "user_id": "user_001",
+      "session_id": "user_001_session_08",
+      "timestamp": "2026-10-31T09:03:00+00:00",
+      "role": "user",
+      "content": "Can we continue with the SLAM project? I want to implement loop closure."
+    },
+    {
+      "message_id": "user_001_session_08_msg_02",
+      "user_id": "user_001",
+      "session_id": "user_001_session_08",
+      "timestamp": "2026-10-31T09:06:00+00:00",
+      "role": "user",
+      "content": "I am still using Python and OpenCV."
+    },
+    {
+      "message_id": "user_001_session_08_msg_03",
+      "user_id": "user_001",
+      "session_id": "user_001_session_08",
+      "timestamp": "2026-10-31T09:09:00+00:00",
+      "role": "user",
+      "content": "Tell me a quick joke."
+    },
+    {
+      "message_id": "user_002_session_01_msg_01",
+      "user_id": "user_002",
+      "session_id": "user_002_session_01",
+      "timestamp": "2026-10-01T10:03:00+00:00",
+      "role": "user",
+      "content": "I work as a junior product designer."
+    },
+    {
+      "message_id": "user_002_session_01_msg_02",
+      "user_id": "user_002",
+      "session_id": "user_002_session_01",
+      "timestamp": "2026-10-01T10:06:00+00:00",
+      "role": "user",
+      "content": "I'm redesigning the onboarding flow for a budgeting app."
+    },
+    {
+      "message_id": "user_002_session_01_msg_03",
+      "user_id": "user_002",
+      "session_id": "user_002_session_01",
+      "timestamp": "2026-10-01T10:09:00+00:00",
+      "role": "user",
+      "content": "I prefer clean interfaces with restrained colors."
+    },
+    {
+      "message_id": "user_002_session_01_msg_04",
+      "user_id": "user_002",
+      "session_id": "user_002_session_01",
+      "timestamp": "2026-10-01T10:12:00+00:00",
+      "role": "user",
+      "content": "Hi there!"
+    },
+    {
+      "message_id": "user_002_session_02_msg_01",
+      "user_id": "user_002",
+      "session_id": "user_002_session_02",
+      "timestamp": "2026-10-03T11:03:00+00:00",
+      "role": "user",
+      "content": "The onboarding should take fewer than three minutes."
+    },
+    {
+      "message_id": "user_002_session_02_msg_02",
+      "user_id": "user_002",
+      "session_id": "user_002_session_02",
+      "timestamp": "2026-10-03T11:06:00+00:00",
+      "role": "user",
+      "content": "Our users are mostly first-time budgeters."
+    },
+    {
+      "message_id": "user_002_session_02_msg_03",
+      "user_id": "user_002",
+      "session_id": "user_002_session_02",
+      "timestamp": "2026-10-03T11:09:00+00:00",
+      "role": "user",
+      "content": "What is a REST API?"
+    },
+    {
+      "message_id": "user_002_session_03_msg_01",
+      "user_id": "user_002",
+      "session_id": "user_002_session_03",
+      "timestamp": "2026-10-06T12:03:00+00:00",
+      "role": "user",
+      "content": "I tested the onboarding prototype with six people."
+    },
+    {
+      "message_id": "user_002_session_03_msg_02",
+      "user_id": "user_002",
+      "session_id": "user_002_session_03",
+      "timestamp": "2026-10-06T12:06:00+00:00",
+      "role": "user",
+      "content": "Four testers struggled to understand the category-selection screen."
+    },
+    {
+      "message_id": "user_002_session_03_msg_03",
+      "user_id": "user_002",
+      "session_id": "user_002_session_03",
+      "timestamp": "2026-10-06T12:09:00+00:00",
+      "role": "user",
+      "content": "I use Figma for interface design."
+    },
+    {
+      "message_id": "user_002_session_04_msg_01",
+      "user_id": "user_002",
+      "session_id": "user_002_session_04",
+      "timestamp": "2026-10-10T09:03:00+00:00",
+      "role": "user",
+      "content": "I changed the category-selection screen to use plain-language labels."
+    },
+    {
+      "message_id": "user_002_session_04_msg_02",
+      "user_id": "user_002",
+      "session_id": "user_002_session_04",
+      "timestamp": "2026-10-10T09:06:00+00:00",
+      "role": "user",
+      "content": "I want to keep the onboarding accessible."
+    },
+    {
+      "message_id": "user_002_session_04_msg_03",
+      "user_id": "user_002",
+      "session_id": "user_002_session_04",
+      "timestamp": "2026-10-10T09:09:00+00:00",
+      "role": "user",
+      "content": "What does SQL mean?"
+    },
+    {
+      "message_id": "user_002_session_05_msg_01",
+      "user_id": "user_002",
+      "session_id": "user_002_session_05",
+      "timestamp": "2026-10-17T10:03:00+00:00",
+      "role": "user",
+      "content": "The second usability test went better; five of six testers completed onboarding without help."
+    },
+    {
+      "message_id": "user_002_session_05_msg_02",
+      "user_id": "user_002",
+      "session_id": "user_002_session_05",
+      "timestamp": "2026-10-17T10:06:00+00:00",
+      "role": "assistant",
+      "content": "I'm preparing a design handoff for engineering."
+    },
+    {
+      "message_id": "user_002_session_06_msg_01",
+      "user_id": "user_002",
+      "session_id": "user_002_session_06",
+      "timestamp": "2026-10-29T11:03:00+00:00",
+      "role": "user",
+      "content": "Help me write the handoff notes for the budgeting app onboarding."
+    },
+    {
+      "message_id": "user_002_session_06_msg_02",
+      "user_id": "user_002",
+      "session_id": "user_002_session_06",
+      "timestamp": "2026-10-29T11:06:00+00:00",
+      "role": "assistant",
+      "content": "Remember that accessibility is a key requirement."
+    },
+    {
+      "message_id": "user_003_session_01_msg_01",
+      "user_id": "user_003",
+      "session_id": "user_003_session_01",
+      "timestamp": "2026-10-01T10:03:00+00:00",
+      "role": "user",
+      "content": "I'm preparing for a data engineering interview."
+    },
+    {
+      "message_id": "user_003_session_01_msg_02",
+      "user_id": "user_003",
+      "session_id": "user_003_session_01",
+      "timestamp": "2026-10-01T10:06:00+00:00",
+      "role": "user",
+      "content": "I'm comfortable with Python but need more practice with SQL joins."
+    },
+    {
+      "message_id": "user_003_session_01_msg_03",
+      "user_id": "user_003",
+      "session_id": "user_003_session_01",
+      "timestamp": "2026-10-01T10:09:00+00:00",
+      "role": "user",
+      "content": "I study best with short exercises."
+    },
+    {
+      "message_id": "user_003_session_01_msg_04",
+      "user_id": "user_003",
+      "session_id": "user_003_session_01",
+      "timestamp": "2026-10-01T10:12:00+00:00",
+      "role": "assistant",
+      "content": "What time is it in Tokyo?"
+    },
+    {
+      "message_id": "user_003_session_02_msg_01",
+      "user_id": "user_003",
+      "session_id": "user_003_session_02",
+      "timestamp": "2026-10-02T11:03:00+00:00",
+      "role": "user",
+      "content": "I have an interview scheduled for November 12."
+    },
+    {
+      "message_id": "user_003_session_02_msg_02",
+      "user_id": "user_003",
+      "session_id": "user_003_session_02",
+      "timestamp": "2026-10-02T11:06:00+00:00",
+      "role": "user",
+      "content": "I reviewed INNER JOIN and LEFT JOIN today."
+    },
+    {
+      "message_id": "user_003_session_02_msg_03",
+      "user_id": "user_003",
+      "session_id": "user_003_session_02",
+      "timestamp": "2026-10-02T11:09:00+00:00",
+      "role": "user",
+      "content": "Can you explain photosynthesis?"
+    },
+    {
+      "message_id": "user_003_session_03_msg_01",
+      "user_id": "user_003",
+      "session_id": "user_003_session_03",
+      "timestamp": "2026-10-05T12:03:00+00:00",
+      "role": "user",
+      "content": "I struggled with window functions in my SQL practice."
+    },
+    {
+      "message_id": "user_003_session_03_msg_02",
+      "user_id": "user_003",
+      "session_id": "user_003_session_03",
+      "timestamp": "2026-10-05T12:06:00+00:00",
+      "role": "user",
+      "content": "I want to spend 30 minutes a day on SQL."
+    },
+    {
+      "message_id": "user_003_session_03_msg_03",
+      "user_id": "user_003",
+      "session_id": "user_003_session_03",
+      "timestamp": "2026-10-05T12:09:00+00:00",
+      "role": "user",
+      "content": "Thanks!"
+    },
+    {
+      "message_id": "user_003_session_04_msg_01",
+      "user_id": "user_003",
+      "session_id": "user_003_session_04",
+      "timestamp": "2026-10-09T09:03:00+00:00",
+      "role": "user",
+      "content": "I solved five SQL join exercises correctly."
+    },
+    {
+      "message_id": "user_003_session_04_msg_02",
+      "user_id": "user_003",
+      "session_id": "user_003_session_04",
+      "timestamp": "2026-10-09T09:06:00+00:00",
+      "role": "assistant",
+      "content": "I'm now practicing CTEs and window functions."
+    },
+    {
+      "message_id": "user_003_session_05_msg_01",
+      "user_id": "user_003",
+      "session_id": "user_003_session_05",
+      "timestamp": "2026-10-15T10:03:00+00:00",
+      "role": "user",
+      "content": "My interview is still on November 12."
+    },
+    {
+      "message_id": "user_003_session_05_msg_02",
+      "user_id": "user_003",
+      "session_id": "user_003_session_05",
+      "timestamp": "2026-10-15T10:06:00+00:00",
+      "role": "assistant",
+      "content": "Please quiz me one question at a time."
+    },
+    {
+      "message_id": "user_003_session_06_msg_01",
+      "user_id": "user_003",
+      "session_id": "user_003_session_06",
+      "timestamp": "2026-10-26T11:03:00+00:00",
+      "role": "user",
+      "content": "Let's practice SQL window functions for my data engineering interview."
+    },
+    {
+      "message_id": "user_003_session_06_msg_02",
+      "user_id": "user_003",
+      "session_id": "user_003_session_06",
+      "timestamp": "2026-10-26T11:06:00+00:00",
+      "role": "assistant",
+      "content": "I prefer one question at a time."
+    },
+    {
+      "message_id": "user_004_session_01_msg_01",
+      "user_id": "user_004",
+      "session_id": "user_004_session_01",
+      "timestamp": "2026-10-01T10:03:00+00:00",
+      "role": "user",
+      "content": "I'm planning a small vegetable garden on my balcony."
+    },
+    {
+      "message_id": "user_004_session_01_msg_02",
+      "user_id": "user_004",
+      "session_id": "user_004_session_01",
+      "timestamp": "2026-10-01T10:06:00+00:00",
+      "role": "user",
+      "content": "The balcony gets direct sunlight for about four hours."
+    },
+    {
+      "message_id": "user_004_session_01_msg_03",
+      "user_id": "user_004",
+      "session_id": "user_004_session_01",
+      "timestamp": "2026-10-01T10:09:00+00:00",
+      "role": "user",
+      "content": "I have two medium-sized planters."
+    },
+    {
+      "message_id": "user_004_session_01_msg_04",
+      "user_id": "user_004",
+      "session_id": "user_004_session_01",
+      "timestamp": "2026-10-01T10:12:00+00:00",
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "message_id": "user_004_session_02_msg_01",
+      "user_id": "user_004",
+      "session_id": "user_004_session_02",
+      "timestamp": "2026-10-04T11:03:00+00:00",
+      "role": "user",
+      "content": "I planted basil and cherry tomatoes."
+    },
+    {
+      "message_id": "user_004_session_02_msg_02",
+      "user_id": "user_004",
+      "session_id": "user_004_session_02",
+      "timestamp": "2026-10-04T11:06:00+00:00",
+      "role": "user",
+      "content": "The tomato leaves are turning yellow near the bottom."
+    },
+    {
+      "message_id": "user_004_session_02_msg_03",
+      "user_id": "user_004",
+      "session_id": "user_004_session_02",
+      "timestamp": "2026-10-04T11:09:00+00:00",
+      "role": "user",
+      "content": "What is a binary tree?"
+    },
+    {
+      "message_id": "user_004_session_03_msg_01",
+      "user_id": "user_004",
+      "session_id": "user_004_session_03",
+      "timestamp": "2026-10-08T12:03:00+00:00",
+      "role": "user",
+      "content": "I moved the tomato planter to a sunnier corner."
+    },
+    {
+      "message_id": "user_004_session_03_msg_02",
+      "user_id": "user_004",
+      "session_id": "user_004_session_03",
+      "timestamp": "2026-10-08T12:06:00+00:00",
+      "role": "assistant",
+      "content": "I water the plants every other morning."
+    },
+    {
+      "message_id": "user_004_session_04_msg_01",
+      "user_id": "user_004",
+      "session_id": "user_004_session_04",
+      "timestamp": "2026-10-14T09:03:00+00:00",
+      "role": "user",
+      "content": "The basil is growing well, but the tomatoes still look pale."
+    },
+    {
+      "message_id": "user_004_session_04_msg_02",
+      "user_id": "user_004",
+      "session_id": "user_004_session_04",
+      "timestamp": "2026-10-14T09:06:00+00:00",
+      "role": "assistant",
+      "content": "I want to avoid chemical pesticides."
+    },
+    {
+      "message_id": "user_004_session_05_msg_01",
+      "user_id": "user_004",
+      "session_id": "user_004_session_05",
+      "timestamp": "2026-10-25T10:03:00+00:00",
+      "role": "user",
+      "content": "Can you help troubleshoot my balcony tomatoes?"
+    },
+    {
+      "message_id": "user_004_session_05_msg_02",
+      "user_id": "user_004",
+      "session_id": "user_004_session_05",
+      "timestamp": "2026-10-25T10:06:00+00:00",
+      "role": "assistant",
+      "content": "Remember, I prefer organic gardening methods."
+    },
+    {
+      "message_id": "user_005_session_01_msg_01",
+      "user_id": "user_005",
+      "session_id": "user_005_session_01",
+      "timestamp": "2026-10-01T10:03:00+00:00",
+      "role": "user",
+      "content": "I'm learning Spanish for an upcoming trip."
+    },
+    {
+      "message_id": "user_005_session_01_msg_02",
+      "user_id": "user_005",
+      "session_id": "user_005_session_01",
+      "timestamp": "2026-10-01T10:06:00+00:00",
+      "role": "user",
+      "content": "My current level is beginner A1."
+    },
+    {
+      "message_id": "user_005_session_01_msg_03",
+      "user_id": "user_005",
+      "session_id": "user_005_session_01",
+      "timestamp": "2026-10-01T10:09:00+00:00",
+      "role": "user",
+      "content": "I can practice for 15 minutes each evening."
+    },
+    {
+      "message_id": "user_005_session_01_msg_04",
+      "user_id": "user_005",
+      "session_id": "user_005_session_01",
+      "timestamp": "2026-10-01T10:12:00+00:00",
+      "role": "assistant",
+      "content": "What's 17 times 23?"
+    },
+    {
+      "message_id": "user_005_session_02_msg_01",
+      "user_id": "user_005",
+      "session_id": "user_005_session_02",
+      "timestamp": "2026-10-03T11:03:00+00:00",
+      "role": "user",
+      "content": "I booked a trip to Madrid for December 4."
+    },
+    {
+      "message_id": "user_005_session_02_msg_02",
+      "user_id": "user_005",
+      "session_id": "user_005_session_02",
+      "timestamp": "2026-10-03T11:06:00+00:00",
+      "role": "user",
+      "content": "I want to focus on ordering food and asking for directions."
+    },
+    {
+      "message_id": "user_005_session_02_msg_03",
+      "user_id": "user_005",
+      "session_id": "user_005_session_02",
+      "timestamp": "2026-10-03T11:09:00+00:00",
+      "role": "user",
+      "content": "How do you say 'good morning' in Spanish?"
+    },
+    {
+      "message_id": "user_005_session_03_msg_01",
+      "user_id": "user_005",
+      "session_id": "user_005_session_03",
+      "timestamp": "2026-10-06T12:03:00+00:00",
+      "role": "user",
+      "content": "I learned the phrases for ordering coffee and asking for the bill."
+    },
+    {
+      "message_id": "user_005_session_03_msg_02",
+      "user_id": "user_005",
+      "session_id": "user_005_session_03",
+      "timestamp": "2026-10-06T12:06:00+00:00",
+      "role": "assistant",
+      "content": "Please correct my Spanish gently and explain mistakes."
+    },
+    {
+      "message_id": "user_005_session_04_msg_01",
+      "user_id": "user_005",
+      "session_id": "user_005_session_04",
+      "timestamp": "2026-10-12T09:03:00+00:00",
+      "role": "user",
+      "content": "I can now introduce myself and ask simple questions in Spanish."
+    },
+    {
+      "message_id": "user_005_session_04_msg_02",
+      "user_id": "user_005",
+      "session_id": "user_005_session_04",
+      "timestamp": "2026-10-12T09:06:00+00:00",
+      "role": "assistant",
+      "content": "I still struggle with past-tense verbs."
+    },
+    {
+      "message_id": "user_005_session_05_msg_01",
+      "user_id": "user_005",
+      "session_id": "user_005_session_05",
+      "timestamp": "2026-10-21T10:03:00+00:00",
+      "role": "user",
+      "content": "Let's practice a restaurant conversation in Spanish."
+    },
+    {
+      "message_id": "user_005_session_05_msg_02",
+      "user_id": "user_005",
+      "session_id": "user_005_session_05",
+      "timestamp": "2026-10-21T10:06:00+00:00",
+      "role": "assistant",
+      "content": "I'm still a beginner, so keep the vocabulary simple."
+    }
+  ],
+  "gold_memories": [
+    {
+      "memory_id": "mem_001",
+      "user_id": "user_001",
+      "content": "User is a second-year computer science student.",
+      "category": "profile",
+      "importance": 8,
+      "created_at": "2026-10-01T09:03:00+00:00",
+      "expected_recall_queries": [
+        "What is the user's academic background?",
+        "What year is the user studying?"
+      ]
+    },
+    {
+      "memory_id": "mem_002",
+      "user_id": "user_001",
+      "content": "User is building a monocular SLAM project in Python using OpenCV.",
+      "category": "project",
+      "importance": 10,
+      "created_at": "2026-10-01T09:06:00+00:00",
+      "expected_recall_queries": [
+        "What computer vision project is the user building?",
+        "What tools is the user using for the SLAM project?"
+      ]
+    },
+    {
+      "memory_id": "mem_003",
+      "user_id": "user_001",
+      "content": "User prefers code examples before lengthy theoretical explanations.",
+      "category": "preference",
+      "importance": 7,
+      "created_at": "2026-10-01T09:09:00+00:00",
+      "expected_recall_queries": [
+        "How does the user prefer technical explanations?"
+      ]
+    },
+    {
+      "memory_id": "mem_004",
+      "user_id": "user_001",
+      "content": "User wants to finish a working SLAM prototype by the end of October 2026.",
+      "category": "goal",
+      "importance": 8,
+      "created_at": "2026-10-04T09:09:00+00:00",
+      "expected_recall_queries": [
+        "What is the user's deadline for the SLAM prototype?"
+      ]
+    },
+    {
+      "memory_id": "mem_005",
+      "user_id": "user_001",
+      "content": "User wants to implement loop closure in the SLAM project.",
+      "category": "goal",
+      "importance": 9,
+      "created_at": "2026-10-23T09:06:00+00:00",
+      "expected_recall_queries": [
+        "What feature does the user want to add next to SLAM?"
+      ]
+    },
+    {
+      "memory_id": "mem_006",
+      "user_id": "user_002",
+      "content": "User is a junior product designer redesigning onboarding for a budgeting app.",
+      "category": "project",
+      "importance": 9,
+      "created_at": "2026-10-01T09:03:00+00:00",
+      "expected_recall_queries": [
+        "What product is the user designing?"
+      ]
+    },
+    {
+      "memory_id": "mem_007",
+      "user_id": "user_002",
+      "content": "User prefers clean interfaces with restrained colors.",
+      "category": "preference",
+      "importance": 7,
+      "created_at": "2026-10-01T09:06:00+00:00",
+      "expected_recall_queries": [
+        "What visual design style does the user prefer?"
+      ]
+    },
+    {
+      "memory_id": "mem_008",
+      "user_id": "user_002",
+      "content": "Accessibility is a key requirement for the budgeting app onboarding.",
+      "category": "constraint",
+      "importance": 9,
+      "created_at": "2026-10-10T09:06:00+00:00",
+      "expected_recall_queries": [
+        "What requirement must the onboarding design satisfy?"
+      ]
+    },
+    {
+      "memory_id": "mem_009",
+      "user_id": "user_002",
+      "content": "Five of six testers completed the second onboarding usability test without help.",
+      "category": "episodic",
+      "importance": 6,
+      "created_at": "2026-10-17T09:03:00+00:00",
+      "expected_recall_queries": [
+        "What happened in the second usability test?"
+      ]
+    },
+    {
+      "memory_id": "mem_010",
+      "user_id": "user_003",
+      "content": "User is preparing for a data engineering interview scheduled for November 12, 2026.",
+      "category": "goal",
+      "importance": 9,
+      "created_at": "2026-10-01T09:03:00+00:00",
+      "expected_recall_queries": [
+        "When is the user's data engineering interview?"
+      ]
+    },
+    {
+      "memory_id": "mem_011",
+      "user_id": "user_003",
+      "content": "User is comfortable with Python but wants more practice with SQL joins, CTEs and window functions.",
+      "category": "skill",
+      "importance": 8,
+      "created_at": "2026-10-01T09:06:00+00:00",
+      "expected_recall_queries": [
+        "Which SQL topics is the user studying?"
+      ]
+    },
+    {
+      "memory_id": "mem_012",
+      "user_id": "user_003",
+      "content": "User prefers short exercises and one-question-at-a-time quizzes.",
+      "category": "preference",
+      "importance": 8,
+      "created_at": "2026-10-15T09:06:00+00:00",
+      "expected_recall_queries": [
+        "How should the assistant quiz the user?"
+      ]
+    },
+    {
+      "memory_id": "mem_013",
+      "user_id": "user_004",
+      "content": "User is growing basil and cherry tomatoes in two medium balcony planters.",
+      "category": "project",
+      "importance": 8,
+      "created_at": "2026-10-04T09:03:00+00:00",
+      "expected_recall_queries": [
+        "What plants is the user growing?"
+      ]
+    },
+    {
+      "memory_id": "mem_014",
+      "user_id": "user_004",
+      "content": "The user's balcony receives about four hours of direct sunlight per day.",
+      "category": "constraint",
+      "importance": 7,
+      "created_at": "2026-10-01T09:06:00+00:00",
+      "expected_recall_queries": [
+        "How much sunlight does the user's balcony get?"
+      ]
+    },
+    {
+      "memory_id": "mem_015",
+      "user_id": "user_004",
+      "content": "User prefers organic gardening methods and wants to avoid chemical pesticides.",
+      "category": "preference",
+      "importance": 8,
+      "created_at": "2026-10-14T09:06:00+00:00",
+      "expected_recall_queries": [
+        "What gardening methods does the user prefer?"
+      ]
+    },
+    {
+      "memory_id": "mem_016",
+      "user_id": "user_005",
+      "content": "User is a beginner Spanish learner at approximately A1 level.",
+      "category": "profile",
+      "importance": 8,
+      "created_at": "2026-10-01T09:03:00+00:00",
+      "expected_recall_queries": [
+        "What is the user's Spanish proficiency level?"
+      ]
+    },
+    {
+      "memory_id": "mem_017",
+      "user_id": "user_005",
+      "content": "User is travelling to Madrid on December 4, 2026.",
+      "category": "plan",
+      "importance": 8,
+      "created_at": "2026-10-03T09:03:00+00:00",
+      "expected_recall_queries": [
+        "Where and when is the user travelling?"
+      ]
+    },
+    {
+      "memory_id": "mem_018",
+      "user_id": "user_005",
+      "content": "User prefers gentle corrections and simple vocabulary when practising Spanish.",
+      "category": "preference",
+      "importance": 8,
+      "created_at": "2026-10-06T09:03:00+00:00",
+      "expected_recall_queries": [
+        "How should the assistant correct the user's Spanish?"
+      ]
+    }
+  ],
+  "recall_events": [
+    {
+      "event_id": "rec_001",
+      "user_id": "user_001",
+      "memory_id": "mem_002",
+      "timestamp": "2026-10-07T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_002",
+      "user_id": "user_001",
+      "memory_id": "mem_002",
+      "timestamp": "2026-10-11T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_003",
+      "user_id": "user_001",
+      "memory_id": "mem_002",
+      "timestamp": "2026-10-23T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_004",
+      "user_id": "user_001",
+      "memory_id": "mem_003",
+      "timestamp": "2026-10-16T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_005",
+      "user_id": "user_002",
+      "memory_id": "mem_006",
+      "timestamp": "2026-10-06T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_006",
+      "user_id": "user_002",
+      "memory_id": "mem_008",
+      "timestamp": "2026-10-21T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_007",
+      "user_id": "user_003",
+      "memory_id": "mem_010",
+      "timestamp": "2026-10-15T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_008",
+      "user_id": "user_003",
+      "memory_id": "mem_012",
+      "timestamp": "2026-10-26T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_009",
+      "user_id": "user_004",
+      "memory_id": "mem_013",
+      "timestamp": "2026-10-08T09:00:00+00:00",
+      "used_in_response": true
+    },
+    {
+      "event_id": "rec_010",
+      "user_id": "user_005",
+      "memory_id": "mem_016",
+      "timestamp": "2026-10-12T09:00:00+00:00",
+      "used_in_response": true
+    }
+  ],
+  "evaluation_queries": [
+    {
+      "query_id": "q001",
+      "user_id": "user_001",
+      "query": "What computer vision project is the user building?",
+      "relevant_memory_ids": [
+        "mem_002"
+      ]
+    },
+    {
+      "query_id": "q002",
+      "user_id": "user_001",
+      "query": "What feature does the user want to add next?",
+      "relevant_memory_ids": [
+        "mem_005"
+      ]
+    },
+    {
+      "query_id": "q003",
+      "user_id": "user_002",
+      "query": "What accessibility constraint matters for the app?",
+      "relevant_memory_ids": [
+        "mem_008"
+      ]
+    },
+    {
+      "query_id": "q004",
+      "user_id": "user_003",
+      "query": "When is the user's interview?",
+      "relevant_memory_ids": [
+        "mem_010"
+      ]
+    },
+    {
+      "query_id": "q005",
+      "user_id": "user_003",
+      "query": "How does the user prefer to practise?",
+      "relevant_memory_ids": [
+        "mem_012"
+      ]
+    },
+    {
+      "query_id": "q006",
+      "user_id": "user_004",
+      "query": "What plants is the user growing on the balcony?",
+      "relevant_memory_ids": [
+        "mem_013"
+      ]
+    },
+    {
+      "query_id": "q007",
+      "user_id": "user_005",
+      "query": "How should Spanish mistakes be corrected?",
+      "relevant_memory_ids": [
+        "mem_018"
+      ]
+    },
+    {
+      "query_id": "q008",
+      "user_id": "user_005",
+      "query": "What is the user's Spanish level?",
+      "relevant_memory_ids": [
+        "mem_016"
+      ]
+    }
+  ],
+  "notes": [
+    "Use sessions/messages to test memory extraction and ingestion.",
+    "Use gold_memories as labels or a deterministic starting point; do not treat them as model-generated extraction output.",
+    "Use recall_events to replay reinforcement deterministically.",
+    "Use evaluation_queries later when implementing retrieval.",
+    "All user IDs are synthetic and isolated; never mix memories across users."
+  ]
+}
